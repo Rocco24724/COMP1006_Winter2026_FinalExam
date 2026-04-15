@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-/*Redirect to a URL and exit */
+/* Redirect to a URL and exit */
 function redirect(string $url): void {
     header('Location: ' . $url);
     exit;
